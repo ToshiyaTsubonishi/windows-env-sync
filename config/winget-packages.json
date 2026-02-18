@@ -1,0 +1,46 @@
+{
+  "required": [
+    {
+      "id": "Git.Git",
+      "source": "winget",
+      "description": "Git CLI",
+      "checkPath": "%ProgramFiles%\\Git\\cmd\\git.exe"
+    },
+    {
+      "id": "OpenJS.NodeJS.LTS",
+      "source": "winget",
+      "description": "Node.js LTS (includes npx)",
+      "checkPath": "%ProgramFiles%\\nodejs\\node.exe"
+    },
+    {
+      "id": "Microsoft.PowerShell",
+      "source": "winget",
+      "description": "PowerShell 7",
+      "checkPath": "%ProgramFiles%\\PowerShell\\7\\pwsh.exe"
+    },
+    {
+      "id": "GitHub.cli",
+      "source": "winget",
+      "description": "GitHub CLI",
+      "checkPath": "%ProgramFiles%\\GitHub CLI\\gh.exe"
+    }
+  ],
+  "optional": [
+    {
+      "id": "Docker.DockerDesktop",
+      "source": "winget",
+      "description": "Docker Desktop"
+    },
+    {
+      "id": "BurntSushi.ripgrep.MSVC",
+      "source": "winget",
+      "description": "ripgrep"
+    }
+  ],
+  "pathEntries": [
+    "%ProgramFiles%\\Git\\cmd",
+    "%ProgramFiles%\\nodejs",
+    "%ProgramFiles%\\PowerShell\\7",
+    "%LOCALAPPDATA%\\Microsoft\\WindowsApps"
+  ]
+}

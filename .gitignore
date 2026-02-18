@@ -1,0 +1,4 @@
+# PowerShell / local artifacts
+*.log
+*.tmp
+
