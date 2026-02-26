@@ -8,6 +8,27 @@ if (-not (Get-Variable -Name '_StepErrors' -Scope Script -ErrorAction SilentlyCo
   $script:_StepErrors = [System.Collections.Generic.List[string]]::new()
 }
 
+# 再起動要求フラグ
+if (-not (Get-Variable -Name '_RebootRequired' -Scope Script -ErrorAction SilentlyContinue)) {
+  $script:_RebootRequired = $false
+}
+
+function Set-RebootRequired {
+  <#
+  .SYNOPSIS
+    再起動が必要であることをフラグに記録する。
+  #>
+  $script:_RebootRequired = $true
+}
+
+function Test-RebootRequired {
+  <#
+  .SYNOPSIS
+    再起動フラグが立っているかを返す。
+  #>
+  return $script:_RebootRequired
+}
+
 function Invoke-SafeStep {
   <#
   .SYNOPSIS

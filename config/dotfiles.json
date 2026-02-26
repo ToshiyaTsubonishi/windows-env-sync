@@ -1,0 +1,19 @@
+{
+    "links": [
+        {
+            "description": "Git global config",
+            "source": "dotfiles/.gitconfig",
+            "target": "%USERPROFILE%\\.gitconfig"
+        },
+        {
+            "description": "PowerShell profile",
+            "source": "dotfiles/Microsoft.PowerShell_profile.ps1",
+            "target": "%USERPROFILE%\\Documents\\PowerShell\\Microsoft.PowerShell_profile.ps1"
+        },
+        {
+            "description": "WSL config",
+            "source": "dotfiles/.wslconfig",
+            "target": "%USERPROFILE%\\.wslconfig"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "buckets": [
+        "extras",
+        "versions"
+    ],
+    "required": [
+        {
+            "id": "jq",
+            "description": "JSON processor"
+        },
+        {
+            "id": "fzf",
+            "description": "Fuzzy finder"
+        },
+        {
+            "id": "bat",
+            "description": "cat with syntax highlighting"
+        },
+        {
+            "id": "eza",
+            "description": "Modern ls replacement"
+        },
+        {
+            "id": "fd",
+            "description": "Fast find alternative"
+        },
+        {
+            "id": "delta",
+            "description": "Git diff viewer"
+        }
+    ],
+    "optional": [
+        {
+            "id": "neovim",
+            "description": "Neovim editor"
+        },
+        {
+            "id": "lazygit",
+            "description": "TUI for Git"
+        }
+    ]
+}

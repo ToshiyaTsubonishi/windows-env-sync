@@ -1,0 +1,81 @@
+{
+  "registrySettings": [
+    {
+      "description": "隠しファイルを表示",
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "name": "Hidden",
+      "value": 1,
+      "type": "DWord"
+    },
+    {
+      "description": "ファイル拡張子を表示",
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "name": "HideFileExt",
+      "value": 0,
+      "type": "DWord"
+    },
+    {
+      "description": "保護されたOSファイルを表示しない",
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "name": "ShowSuperHidden",
+      "value": 0,
+      "type": "DWord"
+    },
+    {
+      "description": "タイトルバーにフルパスを表示",
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CabinetState",
+      "name": "FullPath",
+      "value": 1,
+      "type": "DWord"
+    },
+    {
+      "description": "タスクバー: 検索ボックスを非表示",
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Search",
+      "name": "SearchboxTaskbarMode",
+      "value": 0,
+      "type": "DWord"
+    },
+    {
+      "description": "タスクバー: タスクビューボタンを非表示",
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "name": "ShowTaskViewButton",
+      "value": 0,
+      "type": "DWord"
+    },
+    {
+      "description": "タスクバー: ウィジェットを非表示",
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "name": "TaskbarDa",
+      "value": 0,
+      "type": "DWord"
+    },
+    {
+      "description": "タスクバー: チャットを非表示",
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "name": "TaskbarMn",
+      "value": 0,
+      "type": "DWord"
+    },
+    {
+      "description": "タスクバー: Copilotを非表示",
+      "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "name": "ShowCopilotButton",
+      "value": 0,
+      "type": "DWord"
+    },
+    {
+      "description": "スタートメニュー: Bing検索を無効化",
+      "path": "HKCU:\\Software\\Policies\\Microsoft\\Windows\\Explorer",
+      "name": "DisableSearchBoxSuggestions",
+      "value": 1,
+      "type": "DWord"
+    },
+    {
+      "description": "開発者モードを有効化",
+      "path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AppModelUnlock",
+      "name": "AllowDevelopmentWithoutDevLicense",
+      "value": 1,
+      "type": "DWord"
+    }
+  ]
+}
